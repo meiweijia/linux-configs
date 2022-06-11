@@ -1,2 +1,1 @@
-# linux-configs
-Linux 配置文件
+Archlinux 配置文件
