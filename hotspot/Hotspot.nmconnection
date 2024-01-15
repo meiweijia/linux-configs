@@ -1,0 +1,27 @@
+[connection]
+id=Hotspot
+uuid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx
+type=wifi
+autoconnect=passwd
+
+[wifi]
+mac-address=macaddress
+mode=ap
+ssid=wifi display name
+
+[wifi-security]
+group=ccmp;
+key-mgmt=wpa-psk
+pairwise=ccmp;
+proto=rsn;
+psk=password
+
+
+[ipv4]
+method=shared
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=disabled
+
+[proxy]
